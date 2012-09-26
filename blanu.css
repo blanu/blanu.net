@@ -1,3 +1,11 @@
+/*
+    Black:  #020304
+    Red:    #541F14
+    Brown:  #938172
+    Orange: #CC9E61
+    Grey:   #626266
+*/
+
 #main
 {
     float: right;
@@ -15,15 +23,23 @@
 
 h1
 {
-    background: grey;
+    background: #020304;
+    color: #541F14;
 }
 
 h3
 {
-    background: grey;
+    background: #626266;
 }
 
 .navsection
 {
-    background: gray;
+    background: #626266;
+    border: #938172 1px solid;
+    padding: 5px;
 }
+
+a:link    {color:#541F14;}      /* unvisited link */
+a:visited {color:#541F14;}  /* visited link */
+a:hover   {color:#541F14;}  /* mouse over link */
+a:active  {color:#541F14;}  /* selected link */
