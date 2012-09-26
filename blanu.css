@@ -1,0 +1,29 @@
+#main
+{
+    float: right;
+    width: 33%;
+}
+
+#navbox
+{
+    float: right;
+}
+
+#nav
+{
+}
+
+h1
+{
+    background: grey;
+}
+
+h3
+{
+    background: grey;
+}
+
+.navsection
+{
+    background: gray;
+}
